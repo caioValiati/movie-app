@@ -1,25 +1,62 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+
+* {
+  color: #f4f4f4e7 !important;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px !important;
+}
+
+.abaaba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h5 {
+  font-weight: 900 !important;
+}
+
+p {
+  font-weight: 300 !important;
 }
 
 .filmsContainer {
+  width: fit-content;
   margin-top: 25px !important;
 }
 
 .filmInfoContainer {
   display: flex;
-  background-color: aqua;
   flex-direction: column;
   justify-content: space-between;
   padding: 15px;
-  height: 300px;
+  height: 350px;
+}
+
+.mainContainer { 
+  width: 100% !important;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .MuiPaper-root {
   width: 300px;
+  background-color: #363636 !important;
   height: fit-content;
 }
 
